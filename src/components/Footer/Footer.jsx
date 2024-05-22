@@ -74,11 +74,11 @@ function Footer() {
       </div>
       <div className="flex flex-col justify-between w-full md:w-auto md:h-28">
         <form className="flex gap-2" onSubmit={(e) => handleSubmit(e)}>
-          <div className="">
+          <div className="w-full">
             <input
               type="text"
               ref={emailValue}
-              className="focus:outline-none border-none py-2 px-3 rounded-full md:w-64 flex-1 md:flex-none text-[16px]"
+              className="focus:outline-none border-none py-2 px-3 rounded-full md:w-64 flex-1 md:flex-none text-[16px] w-full"
             />
             {error && (
               <p className="mt-1 text-bright-red text-xs">
