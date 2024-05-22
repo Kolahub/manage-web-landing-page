@@ -5,7 +5,7 @@ function FeedbackCard({ image, name, comment }) {
         <img
           src={image}
           alt=""
-          className="absolute -top-14 left-1/2 transform -translate-x-1/2 w-24"
+          className="absolute -top-14 left-1/2 transform -translate-x-1/2 w-24 h-24 object-cover rounded-full"
         />
         <p className="text-center  mt-8 font-semibold text-dark-blue">{name}</p>
         <p className="mt-4 text-center text-dark-grayish-blue">{comment}</p>

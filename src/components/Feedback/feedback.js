@@ -1,6 +1,6 @@
 export const feedbackData = [
   {
-    imgUrl: "../src/assets/images/avatar-anisha.png",
+    imgUrl: "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg",
     name: "Anisha Li",
     comment:
       "“Manage has supercharged our team’s workflow. The ability to maintain  visibility on larger milestones at all times keeps everyone motivated.”",
