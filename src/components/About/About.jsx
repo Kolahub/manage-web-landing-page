@@ -3,7 +3,7 @@ import { aboutData } from "./slider.js";
 function About() {
   return (
     <>
-      <section className="px-8 sm:px-10 lg:px-20 xl:px-36 pt-14">
+      <section className="px-8 sm:px-10 lg:px-20 xl:px-36 pt-14 w-full overflow-x-hidden">
         <div className="flex justify-between flex-col lg:flex-row gap-10 w-full">
           <div className=" w-full lg:w-1/2">
             <h1 className="text-4xl sm:text-5xl text-dark-blue font-semibold">
