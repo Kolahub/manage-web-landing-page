@@ -21,7 +21,6 @@ function Feedback() {
           breakpoints={{
             340: {
               slidesPerView: 1,
-              spaceBetween: 15,
             },
             700: {
               slidesPerView: 2,
@@ -38,6 +37,8 @@ function Feedback() {
             clickable: true,
             el: ".custom-swiper-pagination",
           }}
+          touchRatio={1.5}
+          simulateTouch={true}
           modules={[FreeMode, Pagination]}
           className="max-w-[90%] md:max-w-[80%]  mx-auto"
         >
