@@ -6,8 +6,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // core Swiper
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+import 'swiper/css/effect-coverflow';
 
-import { FreeMode, Pagination } from "swiper/modules";
+
+import { FreeMode, Pagination, EffectCoverflow } from "swiper/modules";
 
 function Feedback() {
   return (
@@ -33,12 +35,15 @@ function Feedback() {
               spaceBetween: 15,
             },
           }}
+
+          effect="coverflow"
+          
           freeMode={true}
           pagination={{
             clickable: true,
             el: ".custom-swiper-pagination",
           }}
-          modules={[FreeMode, Pagination]}
+          modules={[FreeMode, Pagination, EffectCoverflow]}
           className="max-w-[90%] md:max-w-[80%]  mx-auto"
         >
           {feedbackData.map((el, i) => (
